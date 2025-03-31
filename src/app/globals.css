@@ -14,10 +14,6 @@
     font-family: var(--font-clash);
   }
 
-  .font-thin-custom {
-    font-weight: 100;
-  }
-
   .font-public {
     font-family: var(--font-public);
   }
