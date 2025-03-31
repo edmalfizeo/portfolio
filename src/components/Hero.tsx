@@ -88,7 +88,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="achivement-scroll flex md:gap-6 gap-10 mt-30 flex-nowrap overflow-x-auto md:overflow-x-hidden md:justify-center px-5 md:px-0">
+      <div className="achivement-scroll flex md:gap-6 gap-10 mt-30 flex-nowrap overflow-x-auto md:overflow-x-hidden md:justify-center px-5 md:px-0 border-y-4 border-[#471717] md:border-none">
         {[
           { label: "Languages Spoken", value: "3" },
           { label: "Projects Completed", value: "10+" },

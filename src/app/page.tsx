@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Works from "@/components/Works";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       {/* Conteúdo das seções */}
       <div className="relative z-10 p-5 max-w-[1440px] mx-auto">
         <Hero />
+        <Works />
       </div>
     </div>
   );
