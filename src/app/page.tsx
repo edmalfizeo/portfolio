@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Works from "@/components/Works";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <div className="relative z-10 p-5 max-w-[1440px] mx-auto">
         <Hero />
         <Works />
+        <About />
       </div>
     </div>
   );
