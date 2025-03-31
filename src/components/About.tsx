@@ -32,7 +32,7 @@ export default function About() {
       className="relative w-full max-w-[1200px] mx-auto px-6 md:px-14 py-20 rounded-2xl shadow-xl text-white overflow-hidden"
     >
       {/* Glow Effect */}
-      <div className="absolute md:-top-40 -top-20 left-1/2 transform -translate-x-1/2 w-[40vw] h-[40vh] gradiente-primary blur-super rounded-full opacity-90" />
+      <div className="absolute md:-top-50 -top-20 left-1/2 transform -translate-x-1/2 md:w-[30vw] w-[40vw] h-[40vh] gradiente-primary blur-super rounded-full opacity-90" />
 
       {/* Conteúdo */}
       <div

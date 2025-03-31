@@ -32,7 +32,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="flex flex-col items-center text-center min-h-screen md:min-h-fit py-20 px-6"
+      className="flex flex-col items-center text-center min-h-screen md:min-h-fit md:py-15 py-5 px-6"
     >
       {/* Título */}
       <div className="md:mb-10 mb-5">

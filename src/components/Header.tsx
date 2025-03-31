@@ -12,14 +12,14 @@ export default function Header() {
   }, [menuOpen]);
 
   return (
-    <header className="w-full py-5 px-5 md:px-10">
+    <header className="w-full py-5 px-5 md:px-10 relative">
       <div className="flex items-center justify-between max-w-[1440px] mx-auto">
         {/* Logo */}
         <h2 className="text-white text-3xl font-bold font-clash">EDEV</h2>
 
         {/* Menu Desktop */}
         <nav className="hidden md:flex space-x-11">
-          {["Home", "About", "Projects", "Contact"].map((label, index) => (
+          {["home", "about", "projects", "contact"].map((label, index) => (
             <a
               key={index}
               href={`#${label.toLowerCase()}`}
