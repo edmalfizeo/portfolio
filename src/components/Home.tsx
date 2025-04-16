@@ -42,7 +42,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-[url('/bg/gradient_background.png')] bg-cover bg-center bg-no-repeat overflow-hidden">
+    <div className="w-full min-h-screen  overflow-hidden">
       <div className="flex flex-col">
         <header className="flex items-center px-6 py-6 justify-between md:px-15 md:py-8">
           <h2 className="text-2xl md:text-2xl font-title font-bold text-white w-full text-left md:text-left md:w-auto">
