@@ -42,7 +42,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full min-h-screen  overflow-hidden">
+    <div className="w-full min-h-screen bg-gradient-to-b from-[#99002e] to-[#200011] ">
       <div className="flex flex-col">
         <header className="flex items-center px-6 py-6 justify-between md:px-15 md:py-8">
           <h2 className="text-2xl md:text-2xl font-title font-bold text-white w-full text-left md:text-left md:w-auto">
@@ -84,9 +84,13 @@ export default function Home() {
               HELLO I&apos;M EDUARDO MAFEZOLI
             </h2>
             <h1 className="text-4xl md:text-7xl font-title font-bold text-white text-shadow-xl">
-              WEB DEVELOPER
+              WEB{" "}
+              <span className="bg-gradient-to-r from-[#f8a55f] via-[#e43345] to-[#cb4cc4] bg-clip-text text-transparent">
+                DEVELOPER
+              </span>{" "}
+              <br /> & VIDEOMAKER
             </h1>
-            <h2 className="text-sm md:text-lg font-subtitle font-light text-[#786D7D]">
+            <h2 className="text-sm md:text-lg font-subtitle font-base text-[#8b8a8b]">
               CREATING EXCEPTIONAL DIGITAL EXPERIENCES
             </h2>
             <div className="flex items-center gap-4 mt-2 justify-start md:justify-start">
@@ -136,7 +140,7 @@ export default function Home() {
           </div>
         </main>
 
-        <section className="w-full py-6 md:py-3 px-4 -mt-10 md:-mt-20 mb-5 overflow-x-hidden">
+        <section className="w-full py-6 md:py-3 px-4 -mt-10 md:-mt-20 overflow-x-hidden ">
           <div className="container mx-auto">
             {/* Desktop: Linha única */}
             <div className="hidden md:flex justify-center gap-10 max-w-4xl mx-auto">
